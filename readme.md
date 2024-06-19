@@ -41,5 +41,5 @@ For example:
 - The two traits **jealous** and **ambitious** are close to each other
 - etc.
 
-![Example Image](scale.png)
+![Example Image](PCA_Visualization.png)
 
