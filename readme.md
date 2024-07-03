@@ -28,7 +28,7 @@ Next I'll use the output of this function as an input to the LLM. So in LLM, I w
 **Output of LLM**  
 
 
-["indecisiveness":10, "ambitious":7, "innocence":1]
+["indecisiveness":10, "ambitious":7, "innocence":1, "jealous":1, "beauty": 0]
 ![Example Image](scale_df.png)
 Then I feed these characters together with their corresponding trait score into a PCA to map them all into a Cartesian plane and compare and analyze
 
