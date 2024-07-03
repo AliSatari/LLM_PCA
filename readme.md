@@ -42,4 +42,4 @@ For example:
 - etc.
 
 ![Example Image](PCA_Visualization.png)
-
+![Example Image](scale_df.png)
