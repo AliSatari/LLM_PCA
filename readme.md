@@ -30,7 +30,7 @@ Next I'll use the output of this function as an input to the LLM. So in LLM, I w
 
 ["indecisiveness":10, "ambitious":7, "innocence":1, "jealous":1, "beauty": 0]
 ![Example Image](scale_df.png)
-Then I feed these characters together with their corresponding trait score into a PCA to map them all into a Cartesian plane and compare and analyze
+Then I feed these characters together with their corresponding trait score into a PCA to map them all into a Cartesian plane to compare and analyze.
 
 Why I choose 4 characters: I searched to find the top famous characters in the Shakespeare text. For simplicity I keep it as 4 characters.
 
