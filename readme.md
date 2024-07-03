@@ -22,9 +22,9 @@
     - I played around with the traits and add and remove to see how it works.
 
 
-I want to use LLM to get the corpus and extract relevant sections to a character. For example outputs the text related to Hamlet. I will tell in the prompt that I'll use this input later.
-Next I'll use the output of this LLM as an input to the next LLM. So in LLM 2, I want the agent to get the relevant info of a character and considering a list of traits it outputs a score for each of the traits. for examle like this:
-
+I use a function to get the corpus and extract relevant sections to a character. For example outputs the text related to Hamlet. 
+Next I'll use the output of this function as an input to the LLM. So in LLM, I want the agent to get the relevant info of a character and considering a list of traits it outputs a score for each of the traits. for examle like this:
+**Output of LLM**
 ["indecisiveness":10, "ambitious":7, "innocence":1]
 ![Example Image](scale_df.png)
 Then I feed these characters together with their corresponding trait score into a PCA to map them all into a Cartesian plane and compare and analyze
