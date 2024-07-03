@@ -32,7 +32,7 @@ Next I'll use the output of this function as an input to the LLM. So in LLM, I w
 ![Example Image](scale_df.png)
 Then I feed these characters together with their corresponding trait score into a PCA to map them all into a Cartesian plane to compare and analyze.
 
-Why I choose 4 characters: I searched to find the top famous characters in the Shakespeare text. For simplicity I keep it as 4 characters.
+Why I choose 4 characters: I searched to find the top famous characters in the Shakespeare text. For simplicity I keep it as 5 characters.
 
 Here is the final visualization:
 As you can see by mapping multiple traits and characters all in the same plane we can vsually judge which trait is closer to a character.
