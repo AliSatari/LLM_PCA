@@ -26,7 +26,7 @@ I want to use LLM to get the corpus and extract relevant sections to a character
 Next I'll use the output of this LLM as an input to the next LLM. So in LLM 2, I want the agent to get the relevant info of a character and considering a list of traits it outputs a score for each of the traits. for examle like this:
 
 ["indecisiveness":10, "ambitious":7, "innocence":1]
-
+![Example Image](scale_df.png)
 Then I feed these characters together with their corresponding trait score into a PCA to map them all into a Cartesian plane and compare and analyze
 
 Why I choose 4 characters: I searched to find the top famous characters in the Shakespeare text. For simplicity I keep it as 4 characters.
@@ -42,4 +42,3 @@ For example:
 - etc.
 
 ![Example Image](PCA_Visualization.png)
-![Example Image](scale_df.png)
